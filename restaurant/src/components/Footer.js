@@ -8,21 +8,27 @@ const styles = {
     }
 }
 
+const styles2 = {
+    link: {
+        color: "white"
+    }
+}
+
 function Footer() {
     return <div >
         <div className="card text-center" style={styles.foot}>
 
             <div className="card-header">
                 <div className="container">
-                    <ul className="nav nav-pills card-header-pills">
+                    <ul className="nav nav-pills card-header-pills"> 
                         <li className="nav-item">
-                            <a className="nav-link active" href="/">Active</a>
+                            <a className="nav-link" style={styles2.link}  href="/">Active</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/">Link</a>
+                            <a className="nav-link" style={styles2.link} href="/">Link</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link disabled" href="/">Disabled</a>
+                            <a className="nav-link" style={styles2.link} href="/">Disabled</a>
                         </li>
                     </ul>
                 </div>
