@@ -4,15 +4,16 @@ const styles = {
     nav: {
         background: "#BF0000",
         color: "white",
-        paddingTop: "0px"
+        padding: "0px",
+        height: "80px"
     }
 }
 
 function navBar() {
     return <div>
-        <nav className="navbar navbar-expand-lg navbar-dark " style={styles.nav}>
+        <nav className="navbar navbar-expand-lg navbar-dark" style={styles.nav}>
             <a className="navbar-brand" href="/">
-                <img src={process.env.PUBLIC_URL + '/images/logo.png'} width="180" height="70" class="d-inline-block align-top" alt=""></img></a>
+                <img src={process.env.PUBLIC_URL + '/images/logo.png'} width="207" height="80" class="d-inline-block align-top" alt=""></img></a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -25,8 +26,9 @@ function navBar() {
                 </div>
             </div>
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"></input>
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <a href="/">
+                <img src={process.env.PUBLIC_URL + '/images/order.png'} width="207" height="80" class="d-inline-block align-top" alt=""></img>
+                </a>
             </form>
         </nav>
     </div>
