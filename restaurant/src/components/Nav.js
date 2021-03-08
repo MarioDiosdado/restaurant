@@ -22,7 +22,9 @@ function navBar() {
                     <a className="nav-item nav-link active" href="/">MENU <span className="sr-only">(current)</span></a>
                     <a className="nav-item nav-link" href="/">LOCATIONS</a>
                     <a className="nav-item nav-link" href="/">CATERING</a>
-                    <a className="nav-item nav-link" href="/">CULTURE</a>
+                    <a className="nav-item nav-link" href="/">MERCH</a>
+                    <a className="nav-item nav-link" href="/">CATERING</a>
+                    <a className="nav-item nav-link" href="/">CAREERS</a>
                 </div>
             </div>
             <form class="form-inline my-2 my-lg-0">

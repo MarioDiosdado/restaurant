@@ -22,13 +22,13 @@ function Footer() {
                 <div className="container">
                     <ul className="nav nav-pills card-header-pills"> 
                         <li className="nav-item">
-                            <a className="nav-link" style={styles2.link}  href="/">Active</a>
+                            <a className="nav-link" style={styles2.link}  href="/">CONTACT</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" style={styles2.link} href="/">Link</a>
+                            <a className="nav-link" style={styles2.link} href="/">NEWSROOM</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" style={styles2.link} href="/">Disabled</a>
+                            <a className="nav-link" style={styles2.link} href="/">GIFT CARD</a>
                         </li>
                     </ul>
                 </div>
