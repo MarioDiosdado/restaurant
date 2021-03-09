@@ -30,3 +30,97 @@
   color: #fff !important;
   height: 80px;
 }
+
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.img-overlay h1 {
+  position: absolute;
+  left: 5%;
+  background-color: black;
+  color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+
+
+.img-overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.img-overlay2 button {
+  position: absolute;
+  left: 5%;
+}
+
+.img-overlay2:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 65%;
+  
+}
+
+@media (max-width: 720px) {
+  .btn-responsive {
+    padding:2px 4px !important;
+    font-size:80% !important;
+    line-height: 1 !important;
+    border-radius:3px !important;
+  }
+}
+
+@media (max-width: 992px){
+  .btn-responsive {
+    padding:4px 9px !important;
+    font-size:90% !important;
+    line-height: 1.2 !important;
+  }
+}
+
+
+@media (max-width: 720px){
+  .month {
+    font-size:22px !important;
+  }
+}
+
+@media (max-width: 576px){
+  .month {
+    font-size:32px !important;
+  }
+}
+
+@media (max-width: 768px){
+  .month {
+    font-size:32px !important;
+  }
+}
+
+@media (max-width: 992px){
+  .month {
+    font-size:32px !important;
+  }
+}
+
