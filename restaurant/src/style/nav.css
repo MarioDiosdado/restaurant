@@ -31,6 +31,17 @@
   height: 80px;
 }
 
+.navbar-collapse a{
+  background-color: #BF0000;
+}
+
+.navbar-brand {
+  height: 80px;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
 
 .img-overlay {
   position: absolute;
@@ -78,7 +89,7 @@
   content: ' ';
   display: block;
   /* adjust 'height' to position overlay content vertically */
-  height: 65%;
+  height: 60%;
   
 }
 
@@ -99,10 +110,15 @@
   }
 }
 
+@media (min-width: 100px){
+  .month {
+    font-size:32px !important;
+  }
+}
 
 @media (max-width: 720px){
   .month {
-    font-size:22px !important;
+    font-size:15px !important;
   }
 }
 
@@ -120,7 +136,7 @@
 
 @media (max-width: 992px){
   .month {
-    font-size:32px !important;
+    font-size:15px !important;
   }
 }
 
