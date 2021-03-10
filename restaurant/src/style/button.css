@@ -9,7 +9,7 @@
     z-index: -1;
     background-color: var(--accent-color);
   
-    transition: transform 300ms ease-in-out;
+    transition: transform 400ms ease-in-out;
     transform: scaleX(0);
     transform-origin: left;
   }
@@ -28,4 +28,20 @@
   .btn.btn-background-slide:hover,
   .btn.btn-background-slide:focus {
     color: white;
+  }
+
+  .btn-img2:before {
+    height: 30%;
+  }
+
+  .btn-img3:before {
+    height: 75%;
+  }
+
+  .btn-img4:before {
+    height: 75%;
+  }
+
+  .btn-img5:before {
+    height: 75%;
   }

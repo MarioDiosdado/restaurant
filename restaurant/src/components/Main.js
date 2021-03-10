@@ -39,12 +39,15 @@ function Main() {
                     <div className="col-md-4 col-sm-12" style={styles.images}>
                         <div className="row">
                             <div className="col"><img src={process.env.PUBLIC_URL + '/images/main2.jpg'} className="img-fluid" alt="Responsive imag"></img></div>
-                            <div className="img-overlay-button">
-                            <Button label="PIXEL PICKS"></Button>
+                            <div className="img-overlay-button btn-img2">
+                                <Button label="PIXEL PICKS"></Button>
                             </div>
                         </div>
                         <div className="row" >
                             <div className="col" ><img src={process.env.PUBLIC_URL + '/images/main4.jpg'} className="img-fluid" alt="Responsive imag"></img></div>
+                            <div className="img-overlay-button btn-img3">
+                                <Button label="THIS IS A LONG BUTTON"></Button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -53,14 +56,14 @@ function Main() {
                 <div className="row">
                     <div className="col-3" style={styles.images}>
                         <div className="col" style={styles.images}><img src={process.env.PUBLIC_URL + '/images/main6.jpg'} className="img-fluid" alt="Responsive imag"></img></div>
-                        <div className="img-overlay-button">
-                        <Button label="FAMILY MEALS "></Button>
+                        <div className="img-overlay-button btn-img4">
+                            <Button label="FAMILY MEALS "></Button>
                         </div>
                     </div>
                     <div className="col-9" style={styles.images}>
                         <div className="col" style={styles.images}><img src={process.env.PUBLIC_URL + '/images/main7.jpg'} className="img-fluid" alt="Responsive imag"></img></div>
-                        <div className="img-overlay-button">
-                        <Button label="Lorem ipsum dolor sit amet"></Button>
+                        <div className="img-overlay-button btn-img4">
+                            <Button label="Lorem ipsum dolor sit amet"></Button>
                         </div>
                     </div>
                 </div>
