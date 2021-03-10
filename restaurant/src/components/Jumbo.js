@@ -1,5 +1,6 @@
 import React from "react";
-import "../style/nav.css"
+import "../style/nav.css";
+import Button from "./Button";
 
 const styles = {
     box: {
@@ -28,15 +29,18 @@ function Jumbo() {
                     <div className="col-md-8 col-sm-12" style={styles.images}>
                         <img src={process.env.PUBLIC_URL + '/images/main.jpg'} className="img-fluid" alt="Responsive imag"></img>
                         <div className="img-overlay">
-                            <h1 className="month" style={{fontFamily: `'Playfair Display', serif`}}>STEAK OF THE MONTH</h1>
+                            <h1 className="month" style={{ fontFamily: `'Playfair Display', serif` }}>STEAK OF THE MONTH</h1>
                         </div>
                         <div className="img-overlay2">
-                            <button type="button" className="btn btn-danger btn-lg btn-responsive" style={{fontFamily: `'Playfair Display', serif`}}>TRY IT NOW</button>
+                            <Button label="Try it now"></Button>
                         </div>
                     </div>
                     <div className="col-md-4 col-sm-12" style={styles.images}>
                         <div className="row">
                             <div className="col"><img src={process.env.PUBLIC_URL + '/images/main2.jpg'} className="img-fluid" alt="Responsive imag"></img></div>
+                            <div className="img-overlay2">
+                            <Button label="PIXEL PICKS"></Button>
+                            </div>
                         </div>
                         <div className="row" >
                             <div className="col" ><img src={process.env.PUBLIC_URL + '/images/main4.jpg'} className="img-fluid" alt="Responsive imag"></img></div>
@@ -48,20 +52,26 @@ function Jumbo() {
                 <div className="row">
                     <div className="col-3" style={styles.images}>
                         <div className="col" style={styles.images}><img src={process.env.PUBLIC_URL + '/images/main6.jpg'} className="img-fluid" alt="Responsive imag"></img></div>
+                        <div className="img-overlay2">
+                        <Button label="FAMILY MEALS "></Button>
+                        </div>
                     </div>
                     <div className="col-9" style={styles.images}>
                         <div className="col" style={styles.images}><img src={process.env.PUBLIC_URL + '/images/main7.jpg'} className="img-fluid" alt="Responsive imag"></img></div>
+                        <div className="img-overlay2">
+                        <Button label="Lorem ipsum dolor sit amet"></Button>
+                        </div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-9" style={styles.mail2}>
-                        <h1 style={{fontFamily: `'Playfair Display', serif`}}>Best steaks in town. Period.</h1>
+                        <h1 style={{ fontFamily: `'Playfair Display', serif` }}>Best steaks in town. Period.</h1>
                     </div>
                     <form style={styles.mail}>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="YOUR EMAIL"></input>
+                        <div className="form-group">
+                            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="YOUR EMAIL"></input>
                         </div>
-                        <button type="submit" class="btn btn-danger" style={{fontFamily: `'Playfair Display', serif`}}>SUBSCRIBE</button>
+                        <button type="submit" className="btn btn-danger btn-background-slide" style={{ fontFamily: `'Playfair Display', serif` }}>SUBSCRIBE</button>
                     </form>
                 </div>
                 <div className="row">
