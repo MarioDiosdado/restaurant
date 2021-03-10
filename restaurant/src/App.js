@@ -1,6 +1,6 @@
 import './App.css';
 import NavBar from "./components/Nav";
-import Jumbo from "./components/Jumbo";
+import Main from "./components/Main";
 import Footer from "./components/Footer";
 
 
@@ -21,7 +21,7 @@ function App() {
       <div style={styles.container}>
         <div className="container-fluid">
           <NavBar />
-          <Jumbo />
+          <Main />
         </div>
       </div>
       <Footer />

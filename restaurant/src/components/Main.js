@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/nav.css";
+import "../style/main.css";
 import Button from "./Button";
 
 const styles = {
@@ -20,7 +21,7 @@ const styles = {
     }
 }
 
-function Jumbo() {
+function Main() {
     return <div >
 
         <div className="mainpage" style={styles.box}>
@@ -28,17 +29,17 @@ function Jumbo() {
                 <div className="row">
                     <div className="col-md-8 col-sm-12" style={styles.images}>
                         <img src={process.env.PUBLIC_URL + '/images/main.jpg'} className="img-fluid" alt="Responsive imag"></img>
-                        <div className="img-overlay">
+                        <div className="img-overlay-label">
                             <h1 className="month" style={{ fontFamily: `'Playfair Display', serif` }}>STEAK OF THE MONTH</h1>
                         </div>
-                        <div className="img-overlay2">
+                        <div className="img-overlay-button">
                             <Button label="Try it now"></Button>
                         </div>
                     </div>
                     <div className="col-md-4 col-sm-12" style={styles.images}>
                         <div className="row">
                             <div className="col"><img src={process.env.PUBLIC_URL + '/images/main2.jpg'} className="img-fluid" alt="Responsive imag"></img></div>
-                            <div className="img-overlay2">
+                            <div className="img-overlay-button">
                             <Button label="PIXEL PICKS"></Button>
                             </div>
                         </div>
@@ -52,13 +53,13 @@ function Jumbo() {
                 <div className="row">
                     <div className="col-3" style={styles.images}>
                         <div className="col" style={styles.images}><img src={process.env.PUBLIC_URL + '/images/main6.jpg'} className="img-fluid" alt="Responsive imag"></img></div>
-                        <div className="img-overlay2">
+                        <div className="img-overlay-button">
                         <Button label="FAMILY MEALS "></Button>
                         </div>
                     </div>
                     <div className="col-9" style={styles.images}>
                         <div className="col" style={styles.images}><img src={process.env.PUBLIC_URL + '/images/main7.jpg'} className="img-fluid" alt="Responsive imag"></img></div>
-                        <div className="img-overlay2">
+                        <div className="img-overlay-button">
                         <Button label="Lorem ipsum dolor sit amet"></Button>
                         </div>
                     </div>
@@ -89,4 +90,4 @@ function Jumbo() {
 
 }
 
-export default Jumbo;
+export default Main;
