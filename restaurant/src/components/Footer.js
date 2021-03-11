@@ -8,37 +8,67 @@ const styles = {
     }
 }
 
-const styles2 = {
-    link: {
-        color: "white"
-    }
-}
+// const styles2 = {
+//     link: {
+//         color: "white"
+//     }
+// }
 
 function Footer() {
     return <div >
-        <div className="card text-center" style={styles.foot}>
+        <footer className="text-center text-white" style={styles.foot}>
 
-            <div className="card-header">
-                <div className="container">
-                    <ul className="nav nav-pills card-header-pills"> 
-                        <li className="nav-item">
-                            <a className="nav-link" style={styles2.link}  href="/">CONTACT</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" style={styles2.link} href="/">NEWSROOM</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" style={styles2.link} href="/">GIFT CARD</a>
-                        </li>
-                    </ul>
-                </div>
+            <div className="container pt-4">
+
+                <section clclassNameass="mb-4">
+                    <a
+                        className="btn btn-link btn-floating btn-lg text-dark m-1"
+                        href="#!"
+                        role="button"
+                        data-mdb-ripple-color="dark"
+                    ><i className="fab fa-facebook-f"></i
+                    ></a>
+                    <a
+                        className="btn btn-link btn-floating btn-lg text-dark m-1"
+                        href="#!"
+                        role="button"
+                        data-mdb-ripple-color="dark"
+                    ><i className="fab fa-twitter"></i
+                    ></a>
+                    <a
+                        className="btn btn-link btn-floating btn-lg text-dark m-1"
+                        href="#!"
+                        role="button"
+                        data-mdb-ripple-color="dark"
+                    ><i className="fab fa-google"></i
+                    ></a>
+                    <a
+                        className="btn btn-link btn-floating btn-lg text-dark m-1"
+                        href="#!"
+                        role="button"
+                        data-mdb-ripple-color="dark"
+                    ><i className="fab fa-instagram"></i
+                    ></a>
+                    <a
+                        className="btn btn-link btn-floating btn-lg text-dark m-1"
+                        href="#!"
+                        role="button"
+                        data-mdb-ripple-color="dark"
+                    ><i className="fab fa-linkedin"></i
+                    ></a>
+                    <a
+                        className="btn btn-link btn-floating btn-lg text-dark m-1"
+                        href="#!"
+                        role="button"
+                        data-mdb-ripple-color="dark"
+                    ><i className="fab fa-github"></i
+                    ></a>
+                </section>
             </div>
-            <div className="card-body">
-                <h5 className="card-title">Special title treatment</h5>
-                <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="/" className="btn btn-primary">Go somewhere</a>
+            <div className="text-center p-3" style={styles.foot}>
+                © 2020 Copyright: Pixel Picks
             </div>
-        </div>
+        </footer>
     </div>
 }
 
