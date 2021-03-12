@@ -28,14 +28,10 @@ function Main() {
         <div className="mainpage" style={styles.box}>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-8 col-sm-12" style={styles.images}>
-                        <img src={process.env.PUBLIC_URL + '/images/main.jpg'} className="img-fluid" alt="Responsive imag"></img>
-                        <div className="img-overlay-label">
-                            <h1 className="month" style={{ fontFamily: `'Playfair Display', serif` }}>STEAK OF THE MONTH</h1>
-                        </div>
-                        <div className="img-overlay-button">
-                            <Button label="Try it now"></Button>
-                        </div>
+                    <div className="col-md-8 col-sm-12 first-section" style={styles.images}>
+                            <label className="month" style={{ fontFamily: `'Playfair Display', serif` }}>STEAK OF THE MONTH</label>
+                            <Button btnClass={"btn-test"} label="Try it now"></Button>
+                   
                     </div>
                     <div className="col-md-4 col-sm-12" style={styles.images}>
                         <div className="row">

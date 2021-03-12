@@ -102,6 +102,13 @@
     margin: 15px;
   }
 
+  .best{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin: 15px;
+  }
+
   h2 {
     background-color: #2f2f2f;
     color: white;
@@ -122,6 +129,11 @@
     button {
       margin: 20px !important;
       margin-top: 0px !important;
+    }
+    label {
+      width: 28% !important;
+      text-align: center;
+      margin-top: 20% !important;
     }
   }
   
@@ -157,6 +169,12 @@
       margin-top: 8px !important; 
       width: auto;
     }
+    label {
+      width: auto !important;
+      text-align: center;
+      top: 40%;
+      margin-left: 7% !important;
+    }
   }
   
   .btn {
@@ -169,6 +187,10 @@
 
   .family-section {
     background-image: url('main6.jpg');
+  }
+
+  .first-section {
+    background-image: url('main.jpg');
   }
 
   .x-img {
