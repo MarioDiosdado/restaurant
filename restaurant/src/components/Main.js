@@ -29,22 +29,27 @@ function Main() {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-8 col-sm-12 first-section" style={styles.images}>
-                            <label className="month" style={{ fontFamily: `'Playfair Display', serif` }}>STEAK OF THE MONTH</label>
-                            <Button btnClass={"btn-test"} label="Try it now"></Button>
-                   
+                        <label className="month" style={{ fontFamily: `'Playfair Display', serif` }}>STEAK OF THE MONTH</label>
+                        <Button btnClass={"btn-test"} label="Try it now"></Button>
                     </div>
                     <div className="col-md-4 col-sm-12" style={styles.images}>
                         <div className="row">
-                            <div className="col"><img src={process.env.PUBLIC_URL + '/images/main2.jpg'} className="img-fluid" alt="Responsive imag"></img></div>
-                            <div className="img-overlay-button btn-img2">
-                                <Button label="PIXEL PICKS"></Button>
+                            <div className="col-md-12">
+                                <img src={process.env.PUBLIC_URL + '/images/main2.jpg'} className="img-fluid" alt="Responsive imag"></img>
+                                <div className="img-overlay-button btn-img2">
+                                    <Button label="PIXEL PICKS"></Button>
+                                </div>
                             </div>
+
                         </div>
                         <div className="row" >
-                            <div className="col" ><img src={process.env.PUBLIC_URL + '/images/main4.jpg'} className="img-fluid" alt="Responsive imag"></img></div>
-                            <div className="img-overlay-button btn-img3">
-                                <Button label="THIS IS A LONG BUTTON"></Button>
+                            <div className="col-md-12" >
+                                <img src={process.env.PUBLIC_URL + '/images/main4.jpg'} className="img-fluid" alt="Responsive imag"></img>
+                                <div className="img-overlay-button btn-img3 text-nowrap">
+                                    <Button label="THIS IS A LONG BUTTON"></Button>
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -59,7 +64,7 @@ function Main() {
                         </div>
                     </div>
                     <div className="col-md-9 col-sm-12 title-section" style={styles.images}>
-                        <h2>THIS IS THE TITLE</h2>
+                        <h2 style={{ fontFamily: `'Playfair Display', serif` }}>THIS IS THE TITLE</h2>
                         <p className="month">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fermentum justo magna,
                             at sollicitudin tortor cursus quis. Integer dolor nisl, tincidunt sit amet odio sed, ornare convallis eros.</p>
                         <Button btnClass={"btn-test"} label="Lorem ipsum dolor sit amet"></Button>

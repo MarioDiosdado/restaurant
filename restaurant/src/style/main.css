@@ -1,82 +1,17 @@
-.img-overlay-label {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    margin-bottom: 20px;
-  }
   
-  .img-overlay-label h1 {
-    position: absolute;
-    left: 5%;
-    background-color: black;
-    color: #fff;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  .img-overlay-label2 p {
-    position: absolute;
-    left: 5%;
-    background-color: black;
-    color: #fff;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-right: 15px;
-    width: 60%;
-    height: auto;
-    font-size: 20px !important;
-    word-spacing: 5px;
-  }
-  
-  .img-overlay-label:before {
-    content: ' ';
-    display: block;
-    height: 50%;
-  }
-  
-
-  .img-overlay-label2 {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: left;
-    margin-bottom: 20px;
-  }
-
-  .img-overlay-label2:before {
-    content: ' ';
-    display: block;
-    height: 30%;
-  }
-
   .img-overlay-button {
+    margin: 0;
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
   
   .img-overlay-button button {
-    position: absolute;
-    left: 5%;
+    position: relative;
   }
   
-  .img-overlay-button:before {
-    content: ' ';
-    display: block;
-    /* adjust 'height' to position overlay content vertically */
-    height: 60%;
-    
-  }
   
   @media (max-width: 720px) {
     .btn-responsive {
@@ -191,6 +126,14 @@
 
   .first-section {
     background-image: url('main.jpg');
+  }
+
+  .second-section {
+    background-image: url('main2.jpg');
+  }
+
+  .third-section {
+    background-image: url('main4.jpg');
   }
 
   .x-img {
