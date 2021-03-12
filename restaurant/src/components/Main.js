@@ -55,20 +55,18 @@ function Main() {
                 <div className="row"><img src={process.env.PUBLIC_URL + '/images/main5.jpg'} className="img-fluid" alt="Responsive imag"></img>
                 </div>
                 <div className="row">
-                    <div className="col-md-3 col-sm-12" style={styles.images}>
-                        <div className="col" style={styles.images}><img src={process.env.PUBLIC_URL + '/images/main6.jpg'} className="img-fluid" alt="Responsive imag"></img></div>
-                        <div className="img-overlay-button btn-img4">
-                            <Button label="FAMILY MEALS "></Button>
+                    <div className="col-md-3 col-sm-12 family-section" style={styles.images}>
+                        <div className="text-center">
+                            <img src={process.env.PUBLIC_URL + '/images/xpng.png'} className="img-fluid x-img" alt="Responsive imag"></img>
+                            <Button btnClass={"btn-img5"} label="FAMILY MEALS "></Button>
+                            <img src={process.env.PUBLIC_URL + '/images/xpng.png'} className="img-fluid x-img" alt="Responsive imag"></img>
                         </div>
                     </div>
-                        <div className="col-md-9 col-sm-12 test" style={styles.images}>
-                            <h2>THIS IS THE TITLE</h2>
-                                <p className="month">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fermentum justo magna,
+                    <div className="col-md-9 col-sm-12 title-section" style={styles.images}>
+                        <h2>THIS IS THE TITLE</h2>
+                        <p className="month">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fermentum justo magna,
                             at sollicitudin tortor cursus quis. Integer dolor nisl, tincidunt sit amet odio sed, ornare convallis eros.</p>
-                            <Button btnClass={"btn-test"} label="Lorem ipsum dolor sit amet"></Button>
-                            {/* <div className="img-overlay-button btn-img4">
-                                <Button label="Lorem ipsum dolor sit amet"></Button>
-                            </div> */}
+                        <Button btnClass={"btn-test"} label="Lorem ipsum dolor sit amet"></Button>
                     </div>
                 </div>
                 <div className="row">

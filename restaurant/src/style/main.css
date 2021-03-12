@@ -163,7 +163,14 @@
     --accent-color: #BF0000;
   }
   
-  .test {
+  .title-section {
     background-image: url('main7.jpg');
   }
 
+  .family-section {
+    background-image: url('main6.jpg');
+  }
+
+  .x-img {
+    margin: 50px;
+  }

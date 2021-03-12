@@ -41,29 +41,22 @@
     height: 75%;
   }
 
-  .btn-img5:before {
-    height: 75%;
+  .btn-img5 {
+    margin: 0px 10px 10px 15px !important;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
   }
 
-  @media (max-width: 992px){
-    .btn-test {
-      margin: 0px 10px 10px 15px;
-      position: relative;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-    }
+  .btn-test {
+    margin: 0px 10px 10px 15px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 
-  
-  @media (min-width: 100px){
-    .btn-test {
-      margin: 0px 10px 10px 15px;
-      position: relative;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-    }
-  }
