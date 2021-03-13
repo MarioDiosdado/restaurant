@@ -63,7 +63,7 @@ function Main() {
                 <div className="row"><img src={process.env.PUBLIC_URL + '/images/main5.jpg'} className="img-fluid" alt="Responsive imag"></img>
                 </div>
                 <div className="row">
-                    <div className="col-md-3 col-sm-12 family-section" style={styles.images}>
+                    <div className="col-md-4 col-sm-12 family-section" style={styles.images}>
                         <div className="text-center">
                             {/* This is the "family meals section" */}
                             <img src={process.env.PUBLIC_URL + '/images/xpng.png'} className="img-fluid x-img" alt="Responsive imag"></img>
@@ -72,10 +72,10 @@ function Main() {
                         </div>
                     </div>
                     {/* This column has a title, a P tag and a button */}
-                    <div className="col-md-9 col-sm-12 title-section" style={styles.images}>
+                    <div className="col-md-8 col-sm-12 title-section" style={styles.images}>
                         <h2 style={{ fontFamily: `'Playfair Display', serif` }}>THIS IS THE TITLE</h2>
                         <p className="month">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fermentum justo magna,
-                            at sollicitudin tortor cursus quis. Integer dolor nisl, tincidunt sit amet odio sed, ornare convallis eros.</p>
+                            at sollicitudin tortor cursus quis. Integer dolor nisl, tincidunt sit amet odio sed, ornare convallis eros. </p>
                         <Button btnClass={"btn-test"} label="Lorem ipsum dolor sit amet"></Button>
                     </div>
                 </div>

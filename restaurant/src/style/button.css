@@ -30,6 +30,10 @@
     color: white;
   }
 
+  .btn:hover {
+    background-color: #dc3545 !important;
+  }
+
   /* This classes position the buttons */
   .btn-img2:before {
     height: 30%;
@@ -58,6 +62,4 @@
     right: 0;
   }
 
-.btn:hover {
-  background-color: #dc3545 !important;
-}
+
