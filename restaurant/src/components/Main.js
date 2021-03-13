@@ -17,10 +17,13 @@ const styles = {
     },
     mail: {
         padding: "15px",
+        backgroundColor: "#cb1e28"
     },
     mail2: {
-        padding: "30px 20px 20px 50px"
-    }
+        padding: "30px 20px 20px 50px",
+        backgroundColor: "#cb1e28"
+    },
+
 }
 
 function Main() {
@@ -33,7 +36,7 @@ function Main() {
                     <div className="col-md-8 col-sm-12 first-section" style={styles.images}>
                         {/* Label on the first image/section */}
                         <label className="month" style={{ fontFamily: `'Playfair Display', serif` }}>STEAK OF THE MONTH</label>
-                        <Button btnClass={"btn-test"} label="Try it now"></Button>
+                        <Button btnClass={"btn-test"} label="TRY IT NOW"></Button>
                     </div>
                     {/* This column is divided into 2 rows so we have image 2 and 3 in top of each other */}
                     <div className="col-md-4 col-sm-12" style={styles.images}>
@@ -77,7 +80,7 @@ function Main() {
                     </div>
                 </div>
                 {/* This row includes the Mail form */}
-                <div className="row">
+                <div className="row test3">
                     <div className="col-9" style={styles.mail2}>
                         <h1 style={{ fontFamily: `'Playfair Display', serif` }}>Best steaks in town. Period.</h1>
                     </div>
@@ -85,7 +88,7 @@ function Main() {
                         <div className="form-group">
                             <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="YOUR EMAIL"></input>
                         </div>
-                        <button type="submit" className="btn btn-danger btn-background-slide" style={{ fontFamily: `'Playfair Display', serif` }}>SUBSCRIBE</button>
+                        <button type="submit" className="btn btn-danger subscribeBtn" style={{ fontFamily: `'Playfair Display', serif` }}>SUBSCRIBE</button>
                     </form>
                 </div>
                 {/* Final row */}
@@ -94,7 +97,27 @@ function Main() {
                         <div className="col" style={styles.images}><img src={process.env.PUBLIC_URL + '/images/main8.jpg'} className="img-fluid" alt="Responsive imag"></img></div>
                     </div>
                     <div className="col-9" style={styles.images}>
-                        <div className="col" style={styles.images}><img src={process.env.PUBLIC_URL + '/images/main9.jpg'} className="img-fluid" alt="Responsive imag"></img></div>
+                    <div id="carouselExampleControls" class="carousel slide"  data-interval="3000" data-ride="carousel">
+                            <div className="carousel-inner">
+                                <div className="carousel-item active">
+                                    <img className="d-block w-100" src={process.env.PUBLIC_URL + '/images/car1.jpg'} alt="First slide"></img>
+                                </div>
+                                <div className="carousel-item">
+                                    <img className="d-block w-100" src={process.env.PUBLIC_URL + '/images/car2.jpg'} alt="Second slide"></img>
+                                </div>
+                                <div className="carousel-item">
+                                    <img className="d-block w-100" src={process.env.PUBLIC_URL + '/images/car3.jpg'} alt="Third slide"></img>
+                                </div>
+                            </div>
+                            <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span className="sr-only">Previous</span>
+                            </a>
+                            <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span className="sr-only">Next</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
