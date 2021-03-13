@@ -116,6 +116,7 @@
     --accent-color: #BF0000;
   }
   
+  /* This are the background images for some sactions on main page */
   .title-section {
     background-image: url('main7.jpg');
   }
@@ -126,14 +127,6 @@
 
   .first-section {
     background-image: url('main.jpg');
-  }
-
-  .second-section {
-    background-image: url('main2.jpg');
-  }
-
-  .third-section {
-    background-image: url('main4.jpg');
   }
 
   .x-img {

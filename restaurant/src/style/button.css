@@ -1,4 +1,5 @@
 
+  /* This classes create the animation on the buttons */
   .btn.btn-background-slide::before {
     content: '';
     position: absolute;
@@ -29,15 +30,12 @@
     color: white;
   }
 
+  /* This classes position the buttons */
   .btn-img2:before {
     height: 30%;
   }
 
   .btn-img3:before {
-    height: 75%;
-  }
-
-  .btn-img4:before {
     height: 75%;
   }
 

@@ -13,6 +13,7 @@ const styles = {
 function navBar() {
     return <div>
         <nav className="navbar navbar-expand-lg navbar-dark" style={styles.nav}>
+            {/* This is the logo */}
             <a className="navbar-brand" href="/">
                 <img src={process.env.PUBLIC_URL + '/images/logonew.jpg'} width="207" height="80" class="d-inline-block align-top" alt=""></img></a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,6 +29,7 @@ function navBar() {
                     <a className="nav-item nav-link" href="/">CAREERS</a>
                 </div>
             </div>
+            {/* This is the order button */}
             <form class="form-inline my-2 my-lg-0">
             <a href="/">
                 <img src={process.env.PUBLIC_URL + '/images/order.jpg'} width="207" height="80" class="d-inline-block align-top" alt=""></img>
