@@ -58,3 +58,6 @@
     right: 0;
   }
 
+.btn:hover {
+  background-color: #dc3545 !important;
+}
