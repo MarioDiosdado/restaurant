@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../style/nav.css"
 
 const styles = {
@@ -20,12 +21,25 @@ function navBar() {
             </button>
             <div className="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup" style={styles.navItems}>
                 <div className="navbar-nav mynav navItems">
-                    <a className="nav-item nav-link" href="/">MENU <span className="sr-only">(current)</span></a>
-                    <a className="nav-item nav-link" href="/">LOCATIONS</a>
-                    <a className="nav-item nav-link" href="/">CATERING</a>
-                    <a className="nav-item nav-link" href="/">MERCH</a>
-                    <a className="nav-item nav-link" href="/">CATERING</a>
-                    <a className="nav-item nav-link" href="/">CAREERS</a>
+                    
+                    <Link className="nav-item nav-link" to="/">
+                        MENU <span className="sr-only">(current)</span>
+                    </Link>
+                    <Link className="nav-item nav-link" to="/">
+                        LOCATIONS
+                    </Link>
+                    <Link className="nav-item nav-link" to="/">
+                        CATERING
+                    </Link>
+                    <Link className="nav-item nav-link" to="/">
+                        MERCH
+                    </Link>
+                    <Link className="nav-item nav-link" to="/">
+                        CATERING
+                    </Link>
+                    <Link className="nav-item nav-link" to="/">
+                        CAREERS
+                    </Link>
                 </div>
             </div>
             <form class="form-inline my-2 my-lg-0">
