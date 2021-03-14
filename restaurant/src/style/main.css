@@ -90,7 +90,7 @@
       word-spacing: 5px;
     }
     h2 {
-      width: 28% !important;
+      width: 35% !important;
     }
   }
   
@@ -116,8 +116,10 @@
     --accent-color: #BF0000;
   }
   
+  /* This are the background images for some sactions on main page */
   .title-section {
     background-image: url('main7.jpg');
+    padding: 15px !important;
   }
 
   .family-section {
@@ -126,16 +128,17 @@
 
   .first-section {
     background-image: url('main.jpg');
-  }
-
-  .second-section {
-    background-image: url('main2.jpg');
-  }
-
-  .third-section {
-    background-image: url('main4.jpg');
+    padding: 15px !important;
   }
 
   .x-img {
-    margin: 50px;
+    margin: 60px;
+  }
+
+  .test3 {
+    background-color: #cb1e28 !important;
+  }
+
+  .subscribeBtn {
+    margin: 0 !important;
   }

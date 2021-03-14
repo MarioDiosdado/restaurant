@@ -8,11 +8,6 @@ const styles = {
     }
 }
 
-// const styles2 = {
-//     link: {
-//         color: "white"
-//     }
-// }
 
 function Footer() {
     return <div >
