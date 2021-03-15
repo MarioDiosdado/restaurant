@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from "./components/Nav";
 import Main from "./components/Main";
+import Menu from "./pages/Menu/Menu";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -23,7 +24,8 @@ function App() {
         <div className="container-fluid">
           <Router>
             <NavBar />
-              <Route exact path ="/" component={Main} />
+              <Route exact path = "/" component={Main} />
+              <Route exact path = "/menu" component={Menu} />
           </Router>
         </div>
       </div>
