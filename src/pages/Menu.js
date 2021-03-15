@@ -1,10 +1,10 @@
 import React from "react";
 import "./Menu.css"
-import MenuType from "../../components/MenuType";
-import dinner from "../../images/dinner.jpg";
-import lunch from "../../images/lunch.jpg";
-import ed from "../../images/early-dinner.jpg";
-import dessert from "../../images/dessert.jpg";
+import MenuType from "../components/MenuType.js";
+import dinner from "../images/dinner.jpg";
+import lunch from "../images/lunch.jpg";
+import ed from "../images/early-dinner.jpg";
+import dessert from "../images/dessert.jpg";
 
 function Menu() {
 

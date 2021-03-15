@@ -1,7 +1,8 @@
 import './App.css';
 import NavBar from "./components/Nav";
 import Main from "./components/Main";
-import Menu from "./pages/Menu/Menu";
+import Menu from "./pages/Menu";
+import Locations from "./pages/Locations";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -26,6 +27,7 @@ function App() {
             <NavBar />
               <Route exact path = "/" component={Main} />
               <Route exact path = "/menu" component={Menu} />
+              <Route exact path = "/locations" component={Locations} />
           </Router>
         </div>
       </div>
