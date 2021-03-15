@@ -22,8 +22,8 @@ function navBar() {
             </button>
             <div className="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup" style={styles.navItems}>
                 <div className="navbar-nav mynav navItems">
-                    
-                    <Link className="nav-item nav-link" to="/">
+                    {/*Link to the menu page*/}
+                    <Link className="nav-item nav-link" to="/menu">
                         MENU <span className="sr-only">(current)</span>
                     </Link>
                     <Link className="nav-item nav-link" to="/">
