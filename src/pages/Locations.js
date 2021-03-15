@@ -1,6 +1,6 @@
 import React from "react";
 import "./Locations.css"
-import MenuType from "../components/MenuType.js";
+import LocationType from "../components/LocationType.js";
 import sh1 from "../images/sh1.jpg";
 import sh2 from "../images/sh2.jpg";
 import sh3 from "../images/sh3.jpg";
@@ -15,12 +15,12 @@ function Locations() {
             <h1 id="header">Find A Location Near You</h1>
             <div className="container">
                 <div className="row">
-                    <MenuType image={sh1} type="Tyler, Tx" alt="SteakHouse" />
-                    <MenuType image={sh2} type="Spring, Tx" alt="SteakHouse" />
-                    <MenuType image={sh3} type="Beaumont, Tx" alt="SteakHouse" />
-                    <MenuType image={sh4} type="Humble, Tx" alt="SteakHouse" />
-                    <MenuType image={sh5} type="Houston, Tx" alt="SteakHouse" />
-                    <MenuType image={sh6} type="Katy, Tx" alt="SteakHouse" />
+                    <LocationType image={sh1} type="Tyler, Tx" alt="SteakHouse" />
+                    <LocationType image={sh2} type="Spring, Tx" alt="SteakHouse" />
+                    <LocationType image={sh3} type="Beaumont, Tx" alt="SteakHouse" />
+                    <LocationType image={sh4} type="Humble, Tx" alt="SteakHouse" />
+                    <LocationType image={sh5} type="Houston, Tx" alt="SteakHouse" />
+                    <LocationType image={sh6} type="Katy, Tx" alt="SteakHouse" />
                 </div>
             </div>
         </div>
