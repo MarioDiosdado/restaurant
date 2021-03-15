@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronCircleRight } from "@fortawesome/free-solid-svg-icons";
 
 const styles = {
     image: {
@@ -7,6 +9,9 @@ const styles = {
     },
     card: {
         margin: "10px"
+    },
+    icon: {
+        float: "right"
     }
 }
 
@@ -17,7 +22,7 @@ function MenuType(props) {
                 <div className="card bg-dark text-white" style={styles.card}>
                     <img src={props.image} className="card-img-top" alt={props.alt} style={styles.image} />
                     <div className="card-body">
-                        <p className="card-text">{props.type}</p>
+                        <p className="card-text">{props.type}<span style={styles.icon} ><a href="/"><FontAwesomeIcon icon={faChevronCircleRight} size="lg" /></a></span></p>
                     </div>
                 </div>
             </div>
