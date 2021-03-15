@@ -1,7 +1,9 @@
 import './App.css';
 import NavBar from "./components/Nav";
 import Main from "./components/Main";
+import Menu from "./pages/Menu/Menu";
 import Footer from "./components/Footer";
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 
 const styles = {
@@ -20,8 +22,11 @@ function App() {
     }}>
       <div style={styles.container}>
         <div className="container-fluid">
-          <NavBar />
-          <Main />
+          <Router>
+            <NavBar />
+              <Route exact path = "/" component={Main} />
+              <Route exact path = "/menu" component={Menu} />
+          </Router>
         </div>
       </div>
       <Footer />
