@@ -1,13 +1,27 @@
 import React from "react";
 
-function MenuType() {
+const styles = {
+    image: {
+        width: "auto",
+        height: "300px"
+    },
+    card: {
+        margin: "10px"
+    }
+}
+
+function MenuType(props) {
     return (
-        <div className="card" style={{width: "18rem"}}>
-            <img src="..." className="card-img-top" alt="..." />
-            <div className="card-body">
-                <p className="card-text">MENU TYPE HERE</p>
+
+            <div className="col-sm-12 col-md-6">
+                <div className="card bg-dark text-white" style={styles.card}>
+                    <img src={props.image} className="card-img-top" alt={props.alt} style={styles.image} />
+                    <div className="card-body">
+                        <p className="card-text">{props.type}</p>
+                    </div>
+                </div>
             </div>
-        </div>
+
     )
 }
 
