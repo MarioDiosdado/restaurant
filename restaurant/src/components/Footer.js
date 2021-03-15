@@ -4,7 +4,8 @@ import React from "react";
 const styles = {
     foot: {
         background: "#BF0000",
-        color: "white"
+        color: "white",
+        position: "inherent"
     }
 }
 
@@ -15,7 +16,7 @@ function Footer() {
 
             <div className="container pt-4">
 
-                <section clclassNameass="mb-4">
+                <section className="mb-4">
                     <a
                         className="btn btn-link btn-floating btn-lg text-dark m-1"
                         href="#!"

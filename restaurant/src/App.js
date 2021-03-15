@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 const styles = {
   container: {
     maxWidth: 1500,
-    margin: "auto"
+    margin: "auto",
   }
 }
 function App() {
