@@ -70,6 +70,7 @@
       text-align: center;
       margin-top: 20% !important;
     }
+
   }
   
   @media (max-width: 720px){
@@ -88,6 +89,9 @@
     .month {
       font-size:20px !important;
       word-spacing: 5px;
+    }
+    .last{
+      width: 70% !important;
     }
     h2 {
       width: 35% !important;
@@ -129,6 +133,11 @@
   .first-section {
     background-image: url('main.jpg');
     padding: 15px !important;
+  }
+
+  .last-section {
+    background-image: url('main8.jpg');
+    padding: 15px;
   }
 
   .x-img {

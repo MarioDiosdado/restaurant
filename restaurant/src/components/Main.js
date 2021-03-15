@@ -93,10 +93,10 @@ function Main() {
                 </div>
                 {/* Final row */}
                 <div className="row">
-                    <div className="col-3" style={styles.images}>
-                        <div className="col" style={styles.images}><img src={process.env.PUBLIC_URL + '/images/main8.jpg'} className="img-fluid" alt="Responsive imag"></img></div>
+                    <div className="col-md-3 col-sm-12 last-section" style={styles.images}>
+                       <label className="month last" style={{ fontFamily: `'Playfair Display', serif` }}>PIFA PIFA PIFA</label>
                     </div>
-                    <div className="col-9" style={styles.images}>
+                    <div className="col-md-9 col-sm-12" style={styles.images}>
                     <div id="carouselExampleControls" class="carousel slide"  data-interval="3000" data-ride="carousel">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
