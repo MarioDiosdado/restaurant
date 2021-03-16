@@ -26,7 +26,7 @@ function navBar() {
                     <Link className="nav-item nav-link" to="/menu">
                         MENU <span className="sr-only">(current)</span>
                     </Link>
-                    <Link className="nav-item nav-link" to="/">
+                    <Link className="nav-item nav-link" to="/locations">
                         LOCATIONS
                     </Link>
                     <Link className="nav-item nav-link" to="/">

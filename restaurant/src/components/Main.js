@@ -7,7 +7,8 @@ import Button from "./Button";
 // This style object is used for the entire page, everything else is on the css file
 const styles = {
     box: {
-        background: "#BF0000"
+        background: "#BF0000",
+        marginBottom: "83px",
     },
     images: {
         position: "relative",
