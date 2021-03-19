@@ -17,6 +17,8 @@ function Menu() {
                     <MenuType image={ed} type="Early Dinner" alt="Early Dinner Menu" />
                     <MenuType image={dinner} type="Dinner" alt="Dinner Menu" />
                     <MenuType image={dessert} type="Dessert" alt="Dessert Menu" />
+                    <MenuType image={dinner} type="Dinner" alt="Dinner Menu" />
+                    <MenuType image={dessert} type="Dessert" alt="Dessert Menu" />
                 </div>
             </div>
         </div>
